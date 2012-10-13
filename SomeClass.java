@@ -4,6 +4,10 @@ class HelloWorld() {
     System.out.println("Hello " + name);
   }
 
+  public void printMessage(String message) {
+    System.out.println(message);
+  }
+
   public static void main(int argv[]) {
     HelloWorld hw = new HelloWorld("Aakash");
   }
