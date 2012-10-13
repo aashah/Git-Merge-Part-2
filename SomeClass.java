@@ -4,7 +4,7 @@ class HelloWorld() {
     System.out.println("Hello " + name);
   }
 
-  public int main(int argv[]) {
+  public static void main(int argv[]) {
     HelloWorld hw = new HelloWorld();
   }
 }
