@@ -12,4 +12,7 @@ class HelloWorld() {
   public static void main(int argv[]) {
     HelloWorld hw = new HelloWorld("Matthew");
   }
+  
+  public void complimet() {
+	System.out.println("You are awesome!");
 }
