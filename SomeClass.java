@@ -5,6 +5,6 @@ class HelloWorld() {
   }
 
   public static void main(int argv[]) {
-    HelloWorld hw = new HelloWorld();
+    HelloWorld hw = new HelloWorld("Aakash");
   }
 }
